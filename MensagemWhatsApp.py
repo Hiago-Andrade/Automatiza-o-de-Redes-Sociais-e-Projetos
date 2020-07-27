@@ -1,3 +1,8 @@
+
+# Bot para enviar mensagem pelo WhatsApp
+
+
+
 from selenium import webdriver
 import time
 
@@ -7,7 +12,7 @@ class WhatsappBot:
         
         self.mensagem = "Robo criado com sucesso "
         
-        self.grupos_ou_pessoas = ["Amanda"]
+        self.grupos_ou_pessoas = ["Nome pessoa 1","Nome pessoa 2"]
         options = webdriver.ChromeOptions()
         options.add_argument('lang=pt-br')
         self.driver = webdriver.Chrome(
